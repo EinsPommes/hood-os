@@ -4,7 +4,7 @@
 
 Bevor du mit der Arbeit an Hood OS beginnen kannst, stelle sicher, dass du alle notwendigen Werkzeuge und Abhängigkeiten auf deinem System installiert hast.
 
-### Vorbereitung des Arbeitsbereichs
+## Vorbereitung des Arbeitsbereichs
 
 Um deinen Arbeitsbereich für das Hood OS Projekt vorzubereiten, führe bitte das folgende Skript aus:
 
@@ -16,4 +16,4 @@ Dieses Skript richtet alle benötigten Abhängigkeiten und Konfigurationen ein, 
 
 ## Weitere Informationen
 
-Für detailliertere Anweisungen zur Nutzung und Entwicklung werden bald docs zuf verfugung stehen.
+Für detailliertere Anweisungen zur Nutzung und Entwicklung werden bald Docs zur Verfügung stehen.
