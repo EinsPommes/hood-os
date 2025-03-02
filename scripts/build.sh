@@ -3,7 +3,7 @@
 set -e
 set -o pipefail
 
-KERNEL_DIR="src/core/kernel/linux-6.13.2"
+KERNEL_DIR="src/core/kernel/linux-6.13.5"
 BUILD_DIR="$(pwd)/build"
 ISO_DIR="$BUILD_DIR/iso"
 
