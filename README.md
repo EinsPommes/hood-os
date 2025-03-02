@@ -1,4 +1,26 @@
-# Hood OS (Community Projekt)
+# Hood OS (Community Project) 🇬🇧
+
+## Prerequisites
+
+Before you can start working on Hood OS, make sure you have all the necessary tools and dependencies installed on your system.
+
+## Preparing the Workspace
+
+To prepare your workspace for the Hood OS project, please run the following script:
+
+```bash
+scripts/prepare-workspace.sh
+```
+
+This script sets up all required dependencies and configurations so you can start right away.
+
+## Further Information
+
+More detailed instructions for usage and development will be available in the documentation soon.
+
+---
+
+# Hood OS (Community Projekt) 🇩🇪
 
 ## Voraussetzungen
 
