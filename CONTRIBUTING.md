@@ -1,44 +1,45 @@
-Bitte beachte die folgenden Richtlinien, damit die Zusammenarbeit für alle reibungslos verläuft.
+# Contributing Guidelines
 
-## Allgemeine Regeln
+Please follow these guidelines to ensure smooth collaboration for everyone.
 
-- Sei respektvoll und freundlich in der Diskussion.
-- Halte dich an den Code of Conduct des Projekts.
-- Stelle sicher, dass dein Code gut lesbar und dokumentiert ist.
+## General Rules
 
-## Repository-Klone & Pull Requests
+- Be respectful and friendly in discussions.
+- Adhere to the project's Code of Conduct.
+- Ensure your code is readable and well-documented.
 
-1. **Forke** das Repository und klone es lokal.
-2. Erstelle einen neuen Branch mit einem aussagekräftigen Namen (z. B. `feature/neue-funktion` oder `fix/bug-123`).
-3. Implementiere deine Änderungen und teste sie gründlich.
-4. Öffne einen **Pull Request (PR)** und beschreibe deine Änderungen.
-5. Warte auf eine Code-Review und setze ggf. Feedback um.
+## Repository Cloning & Pull Requests
 
-## Commit-Richtlinien
+1. **Fork** the repository and clone it locally.
+2. Create a new branch with a descriptive name (e.g., `feature/new-function` or `fix/bug-123`).
+3. Implement your changes and test them thoroughly.
+4. Open a **Pull Request (PR)** and describe your changes.
+5. Wait for a code review and implement feedback if necessary.
 
-Wir verwenden [Conventional Commits](https://www.conventionalcommits.org/), um eine einheitliche Commit-Historie zu gewährleisten.  
-Nutze folgende Struktur für deine Commits:
-`<type>(<scope>): <kurze Beschreibung>`
+## Commit Guidelines
 
+We use [Conventional Commits](https://www.conventionalcommits.org/) to ensure a consistent commit history.
+Use the following structure for your commits:
+`<type>(<scope>): <short description>`
 
-### **Beispiele für gültige Commits**:
+### **Examples of valid commits**:
 
-`feat(kernel): Unterstützung für neue Hardware hinzugefügt`  
-`fix(scheduler): Deadlock-Problem behoben`  
-`docs(readme): Abschnitt zur Installation ergänzt`  
+`feat(kernel): Add support for new hardware`
+`fix(scheduler): Resolve deadlock issue`
+`docs(readme): Add installation section`
 
-### **Commit-Typen**:
+### **Commit Types**:
 
-- `feat`: Eine neue Funktion oder Erweiterung  
-- `fix`: Ein Bugfix  
-- `docs`: Änderungen an der Dokumentation  
-- `style`: Code-Änderungen, die nur das Format betreffen (keine Logikänderungen)  
-- `refactor`: Code-Umstrukturierung ohne Funktionsänderung  
-- `test`: Neue oder geänderte Tests  
-- `chore`: Wartungsarbeiten, Abhängigkeitsupdates  
+- `feat`: A new feature or enhancement
+- `fix`: A bug fix
+- `docs`: Changes to documentation
+- `style`: Code changes that only affect formatting (no logic changes)
+- `refactor`: Code restructuring without changing functionality
+- `test`: New or modified tests
+- `chore`: Maintenance work, dependency updates
 
-## Code-Stil
+## Code Style
 
-- Halte dich an bestehende Coding-Guidelines im Projekt.
-- Schreibe sauberen, gut strukturierten Code.
-- Nutze Kommentare, wenn nötig, um komplexe Abschnitte zu erklären.
+- Adhere to existing coding guidelines in the project.
+- Write clean, well-structured code.
+- Use comments when necessary to explain complex sections.
