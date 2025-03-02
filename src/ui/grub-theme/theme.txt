@@ -8,8 +8,8 @@ terminal-font: "DejaVu Sans Mono Regular 12"
 # Hood OS Version und Willkommenstext
 + label {
   top = 8%
-  left = 0
-  width = 100%
+  left = 5%
+  width = 90%
   text = "Hood OS Community Edition"
   font = "DejaVu Sans Bold 24"
   color = "#00ff00"
@@ -18,8 +18,8 @@ terminal-font: "DejaVu Sans Mono Regular 12"
 
 + label {
   top = 15%
-  left = 0
-  width = 100%
+  left = 5%
+  width = 90%
   text = "Willkommen im Boot-Menü"
   font = "DejaVu Sans 14"
   color = "#aaaaaa"
@@ -28,9 +28,9 @@ terminal-font: "DejaVu Sans Mono Regular 12"
 
 # Hauptmenü-Styling
 + boot_menu {
-  left = 20%
+  left = 25%
   top = 30%
-  width = 60%
+  width = 50%
   height = 40%
   item_font = "DejaVu Sans Bold 14"
   item_color = "#888888"
@@ -50,9 +50,9 @@ terminal-font: "DejaVu Sans Mono Regular 12"
 
 # Timer-Label
 + label {
-  left = 0
+  left = 5%
   top = 85%
-  width = 100%
+  width = 90%
   align = center
   id = "__timeout__"
   text = "System startet in %d Sekunden"
@@ -62,9 +62,9 @@ terminal-font: "DejaVu Sans Mono Regular 12"
 
 # Hilfe-Text
 + label {
-  left = 0
+  left = 5%
   top = 90%
-  width = 100%
+  width = 90%
   align = center
   text = "↑ ↓ zum Auswählen    |    Enter zum Bestätigen    |    E zum Bearbeiten"
   font = "DejaVu Sans 10"
