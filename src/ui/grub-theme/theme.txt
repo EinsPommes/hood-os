@@ -1,0 +1,25 @@
+title-text: ""
+desktop-image: "background.tga"
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ boot_menu {
+  left = 0
+  top = 0
+  width = 100%
+  height = 100%
+  item_color = "#888888"
+  selected_item_color = "#222222"
+}
+
++ label {
+  left = 0
+  top = 95%
+  align = "center"
+  id = "__timeout__"
+  text = "Selected entry will start in %d seconds"
+  color = "#222222"
+}

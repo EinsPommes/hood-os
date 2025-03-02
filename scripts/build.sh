@@ -4,6 +4,7 @@ set -e
 set -o pipefail
 
 KERNEL_DIR="src/core/kernel/linux-6.13.5"
+UI_DIR="src/ui"
 BUILD_DIR="$(pwd)/build"
 ISO_DIR="$BUILD_DIR/iso"
 
@@ -46,11 +47,24 @@ create_iso() {
 set timeout=5
 set default=0
 
+insmod all_video
+insmod gfxterm
+insmod tga
+terminal_output gfxterm
+
+loadfont unicode
+
 menuentry "Hood OS" {
 linux /boot/kernel
 boot
 }
+
+set theme=/boot/grub/themes/hood/theme.txt
 EOF
+    #Copy GRUB theme
+    mkdir -p "$ISO_DIR/boot/grub/themes"
+    cp -rT "$UI_DIR/grub-theme" "$ISO_DIR/boot/grub/themes/hood"
+
     grub-mkrescue -o "$BUILD_DIR/os.iso" "$ISO_DIR"
 }
 
