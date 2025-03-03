@@ -1,0 +1,72 @@
+# Theme Configuration for Hood OS GRUB
+title-text: ""
+desktop-image: "background.tga"
+desktop-color: "#000000"
+terminal-box: "terminal_box_*.png"
+terminal-font: "DejaVu Sans Mono Regular 12"
+
+# Hood OS Version and Welcome text
++ label {
+  top = 8%
+  left = 5%
+  width = 90%
+  text = "Hood OS"
+  font = "DejaVu Sans Bold 24"
+  color = "#00ff00"
+  align = center
+}
+
++ label {
+  top = 15%
+  left = 5%
+  width = 90%
+  text = "Welcome to the boot menu"
+  font = "DejaVu Sans 14"
+  color = "#aaaaaa"
+  align = center
+}
+
+# Main menu styling
++ boot_menu {
+  left = 25%
+  top = 30%
+  width = 50%
+  height = 40%
+  item_font = "DejaVu Sans Bold 14"
+  item_color = "#888888"
+  selected_item_font = "DejaVu Sans Bold 14"
+  selected_item_color = "#ffffff"
+  selected_item_pixmap_style = "select_*.png"
+  icon_width = 32
+  icon_height = 32
+  item_height = 32
+  item_padding = 8
+  item_spacing = 12
+  scrollbar = true
+  scrollbar_width = 6
+  scrollbar_thumb = "slider_*.png"
+  scrollbar_frame = "scrollbar_*.png"
+}
+
+# Timer Label
++ label {
+  left = 5%
+  top = 85%
+  width = 90%
+  align = center
+  id = "__timeout__"
+  text = "Selected system will boot in %d seconds"
+  font = "DejaVu Sans Bold 12"
+  color = "#00ff00"
+}
+
+# Help text
++ label {
+  left = 5%
+  top = 90%
+  width = 90%
+  align = center
+  text = "↑ ↓ to select    |    Enter to confirm    |    E to edit"
+  font = "DejaVu Sans 10"
+  color = "#888888"
+}
