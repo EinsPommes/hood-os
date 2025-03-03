@@ -1,9 +1,10 @@
 # GRUB Theme Assets
 
-Dieses Verzeichnis enthält die Grafikressourcen für das GRUB-Theme:
+This directory contains the graphical assets for GRUBs theme:
 
-- `select_*.png`: Auswahlindikator für Menüeinträge
-- `slider_*.png`: Scrollbar-Thumb
-- `scrollbar_*.png`: Scrollbar-Rahmen
-- `terminal_box_*.png`: Terminal-Fenster (fehlt noch)
-Die Bilder sollten in 32-bit PNG mit Transparenz erstellt werden.
+- `select_*.png`: Selection indicator for menu entries
+- `slider_*.png`: Scrollbar thumb
+- `scrollbar_*.png`: Scrollbar frame
+- `terminal_box_*.png`: Terminal window (TODO)
+
+The images must be 32-bit PNGs with transparency.
